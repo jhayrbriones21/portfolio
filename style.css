@@ -843,11 +843,15 @@ xclip
 .testimonial h4 {
     font-size: 18px;
     color: #333333;
-    padding: 13px 0 0;
+    padding: 30px 0 0;
+}
+
+.testimonial a {
+    color: #007bff;
 }
 
 .testimonial img {
-    max-width: 55px;
+    max-width: 100px;
 }
 
 .testimonial small {
@@ -2467,4 +2471,8 @@ select.mobile-device {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+
+.owl-stage-outer {
+    height: 190px;
 }
